@@ -1,0 +1,37 @@
+﻿Build started 7/10/2011 1:02:32 PM.
+     1>Project "C:\Users\Mike\Documents\Visual Studio 2010\Projects\serverDebugDll\serverDebugDll\serverDebugDll.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\serverDebugDll.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+       InitializeBuildStatus:
+         Creating "Debug\serverDebugDll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SERVERDEBUGDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllInterface.cpp serverDebugDll.cpp
+         serverDebugDll.cpp
+         dllInterface.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\serverDebugDll.dll.embed.manifest.res" Debug\serverDebugDll_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\genericServer\Debug\serverDebugDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\serverDebugDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Mike\Documents\Visual Studio 2010\Projects\genericServer\Debug\serverDebugDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\genericServer\Debug\serverDebugDll.lib" /MACHINE:X86 /DLL Debug\serverDebugDll.dll.embed.manifest.res
+         Debug\dllInterface.obj
+         Debug\serverDebugDll.obj
+            Creating library ..\..\genericServer\Debug\serverDebugDll.lib and object ..\..\genericServer\Debug\serverDebugDll.exp
+       Manifest:
+         Deleting file "Debug\serverDebugDll.dll.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\serverDebugDll.dll.embed.manifest" /manifest Debug\serverDebugDll.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\serverDebugDll.dll.embed.manifest.res" Debug\serverDebugDll_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\genericServer\Debug\serverDebugDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\serverDebugDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Mike\Documents\Visual Studio 2010\Projects\genericServer\Debug\serverDebugDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\genericServer\Debug\serverDebugDll.lib" /MACHINE:X86 /DLL Debug\serverDebugDll.dll.embed.manifest.res
+         Debug\dllInterface.obj
+         Debug\serverDebugDll.obj
+            Creating library ..\..\genericServer\Debug\serverDebugDll.lib and object ..\..\genericServer\Debug\serverDebugDll.exp
+         serverDebugDll.vcxproj -> C:\Users\Mike\Documents\Visual Studio 2010\Projects\serverDebugDll\serverDebugDll\..\..\genericServer\Debug\serverDebugDll.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\serverDebugDll.unsuccessfulbuild".
+         Touching "Debug\serverDebugDll.lastbuildstate".
+     1>Done Building Project "C:\Users\Mike\Documents\Visual Studio 2010\Projects\serverDebugDll\serverDebugDll\serverDebugDll.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.40
