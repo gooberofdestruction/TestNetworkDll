@@ -68,7 +68,7 @@ void debugDll::fill(HANDLE hConsoleOutput, int width, int height)
 		for(int j=0; j<height; j++)
 		{
 			write_pos.Y =j;
-			FillConsoleOutputCharacter(hConsoleOutput,' ',1,write_pos,num_written);
+			//FillConsoleOutputCharacter(hConsoleOutput,' ',1,write_pos,num_written);
 		}
 	}
 }
@@ -263,7 +263,7 @@ void debugDll::addCmdMessage(CMD_MESSAGE msg)
 
 	if( msg == CMD_NETWORK )
 	{
-		debugMessage->data.network.address = 0xef000001;
+		debugMessage->data.network.address = 0x7f000001;
 		debugMessage->data.network.port = 1337;
 	}
 	
